@@ -1,0 +1,16 @@
+{
+  "name": "next-multitenant-2024",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "terminals": [
+    {
+      "name": "next-dev",
+      "command": "npm run dev"
+    },
+    {
+      "name": "proxy",
+      "command": "npm run proxy"
+    }
+  ],
+  "ports": [3000, 8080]
+}
